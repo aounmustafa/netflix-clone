@@ -12,7 +12,7 @@ const Row = (props) => {
   const getData = async () => {
     const request = await axios.get(props.fetchUrl);
     setMovies(request.data.results);
-    console.log(movies);
+    //  console.log(movies);
   };
   return (
     <div className="row">
