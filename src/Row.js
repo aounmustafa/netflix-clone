@@ -16,7 +16,7 @@ const Row = (props) => {
   };
   return (
     <div className="row">
-      <h2>{props.title}</h2>
+      <h2 className="row_title">{props.title}</h2>
 
       <div className="row__posters">
         {movies.map((movie) => (
